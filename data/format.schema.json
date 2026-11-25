@@ -1,0 +1,544 @@
+{
+  "type": [
+    "object"
+  ],
+  "properties": {
+    "consents": {
+      "type": [
+        "array"
+      ],
+      "items": {
+        "type": [
+          "object"
+        ],
+        "properties": {
+          "allow_contact": {
+            "type": [
+              "boolean"
+            ]
+          },
+          "allow_external_aggregate": {
+            "type": [
+              "boolean"
+            ]
+          },
+          "allow_internal": {
+            "type": [
+              "boolean"
+            ]
+          },
+          "fields": {
+            "type": [
+              "array"
+            ],
+            "items": {
+              "type": [
+                "string"
+              ]
+            }
+          },
+          "from": {
+            "type": [
+              "string"
+            ]
+          },
+          "id": {
+            "type": [
+              "string"
+            ]
+          },
+          "person_id": {
+            "type": [
+              "string"
+            ]
+          },
+          "purposes": {
+            "type": [
+              "array"
+            ],
+            "items": {
+              "type": [
+                "string"
+              ]
+            }
+          },
+          "to": {
+            "type": [
+              "null",
+              "string",
+              "number",
+              "boolean",
+              "object",
+              "array"
+            ]
+          }
+        },
+        "required": [
+          "allow_contact",
+          "allow_external_aggregate",
+          "allow_internal",
+          "fields",
+          "from",
+          "id",
+          "person_id",
+          "purposes",
+          "to"
+        ],
+        "additionalProperties": true
+      }
+    },
+    "episodes": {
+      "type": [
+        "array"
+      ],
+      "items": {
+        "type": [
+          "object"
+        ],
+        "properties": {
+          "baseline_level": {
+            "type": [
+              "number"
+            ]
+          },
+          "began": {
+            "type": [
+              "string"
+            ]
+          },
+          "center": {
+            "type": [
+              "string"
+            ]
+          },
+          "id": {
+            "type": [
+              "string"
+            ]
+          },
+          "mode": {
+            "type": [
+              "string"
+            ]
+          },
+          "person_id": {
+            "type": [
+              "string"
+            ]
+          },
+          "reason": {
+            "type": [
+              "string"
+            ]
+          }
+        },
+        "required": [
+          "baseline_level",
+          "began",
+          "center",
+          "id",
+          "mode",
+          "person_id",
+          "reason"
+        ],
+        "additionalProperties": true
+      }
+    },
+    "followups": {
+      "type": [
+        "array"
+      ],
+      "items": {
+        "type": [
+          "object"
+        ],
+        "properties": {
+          "date": {
+            "type": [
+              "string"
+            ]
+          },
+          "episode_id": {
+            "type": [
+              "string"
+            ]
+          },
+          "id": {
+            "type": [
+              "string"
+            ]
+          },
+          "person_id": {
+            "type": [
+              "string"
+            ]
+          },
+          "staff_id": {
+            "type": [
+              "string"
+            ]
+          },
+          "status": {
+            "type": [
+              "string"
+            ]
+          }
+        },
+        "required": [
+          "date",
+          "episode_id",
+          "id",
+          "person_id",
+          "staff_id",
+          "status"
+        ],
+        "additionalProperties": true
+      }
+    },
+    "people": {
+      "type": [
+        "array"
+      ],
+      "items": {
+        "type": [
+          "object"
+        ],
+        "properties": {
+          "baseline_level": {
+            "type": [
+              "number"
+            ]
+          },
+          "center": {
+            "type": [
+              "string"
+            ]
+          },
+          "id": {
+            "type": [
+              "string"
+            ]
+          },
+          "language": {
+            "type": [
+              "string"
+            ]
+          }
+        },
+        "required": [
+          "baseline_level",
+          "center",
+          "id",
+          "language"
+        ],
+        "additionalProperties": true
+      }
+    },
+    "protocols": {
+      "type": [
+        "array"
+      ],
+      "items": {
+        "type": [
+          "object"
+        ],
+        "properties": {
+          "baseline_fields": {
+            "type": [
+              "array"
+            ],
+            "items": {
+              "type": [
+                "string"
+              ]
+            }
+          },
+          "endpoint": {
+            "type": [
+              "string"
+            ]
+          },
+          "external_aggregate_min_people": {
+            "type": [
+              "number"
+            ]
+          },
+          "id": {
+            "type": [
+              "string"
+            ]
+          },
+          "maturity_days": {
+            "type": [
+              "number"
+            ]
+          },
+          "purpose": {
+            "type": [
+              "string"
+            ]
+          },
+          "window_days": {
+            "type": [
+              "array"
+            ],
+            "items": {
+              "type": [
+                "number"
+              ]
+            }
+          }
+        },
+        "required": [
+          "baseline_fields",
+          "endpoint",
+          "external_aggregate_min_people",
+          "id",
+          "maturity_days",
+          "purpose",
+          "window_days"
+        ],
+        "additionalProperties": true
+      }
+    },
+    "releases": {
+      "type": [
+        "array"
+      ],
+      "items": {
+        "type": [
+          "object"
+        ],
+        "properties": {
+          "cutoff": {
+            "type": [
+              "string"
+            ]
+          },
+          "id": {
+            "type": [
+              "string"
+            ]
+          },
+          "known_person_ids": {
+            "type": [
+              "array"
+            ],
+            "items": {
+              "type": [
+                "string"
+              ]
+            }
+          },
+          "protocol_id": {
+            "type": [
+              "string"
+            ]
+          },
+          "scope": {
+            "type": [
+              "string"
+            ]
+          },
+          "status": {
+            "type": [
+              "string"
+            ]
+          }
+        },
+        "required": [
+          "cutoff",
+          "id",
+          "known_person_ids",
+          "protocol_id",
+          "scope",
+          "status"
+        ],
+        "additionalProperties": true
+      }
+    },
+    "staff": {
+      "type": [
+        "array"
+      ],
+      "items": {
+        "type": [
+          "object"
+        ],
+        "properties": {
+          "centers": {
+            "type": [
+              "array"
+            ],
+            "items": {
+              "type": [
+                "string"
+              ]
+            }
+          },
+          "date": {
+            "type": [
+              "string"
+            ]
+          },
+          "id": {
+            "type": [
+              "string"
+            ]
+          },
+          "languages": {
+            "type": [
+              "array"
+            ],
+            "items": {
+              "type": [
+                "string"
+              ]
+            }
+          },
+          "max_contacts": {
+            "type": [
+              "number"
+            ]
+          }
+        },
+        "required": [
+          "centers",
+          "date",
+          "id",
+          "languages",
+          "max_contacts"
+        ],
+        "additionalProperties": true
+      }
+    },
+    "visits": {
+      "type": [
+        "array"
+      ],
+      "items": {
+        "type": [
+          "object"
+        ],
+        "properties": {
+          "completed": {
+            "type": [
+              "boolean"
+            ]
+          },
+          "day": {
+            "type": [
+              "number"
+            ]
+          },
+          "episode_id": {
+            "type": [
+              "string"
+            ]
+          },
+          "id": {
+            "type": [
+              "string"
+            ]
+          },
+          "occurred": {
+            "type": [
+              "string"
+            ]
+          },
+          "received": {
+            "type": [
+              "string"
+            ]
+          },
+          "score": {
+            "type": [
+              "number"
+            ]
+          }
+        },
+        "required": [
+          "completed",
+          "day",
+          "episode_id",
+          "id",
+          "occurred",
+          "received",
+          "score"
+        ],
+        "additionalProperties": true
+      }
+    },
+    "withdrawals": {
+      "type": [
+        "array"
+      ],
+      "items": {
+        "type": [
+          "object"
+        ],
+        "properties": {
+          "contact_effective": {
+            "type": [
+              "string"
+            ]
+          },
+          "external_effective": {
+            "type": [
+              "string"
+            ]
+          },
+          "id": {
+            "type": [
+              "string"
+            ]
+          },
+          "internal_effective": {
+            "type": [
+              "string"
+            ]
+          },
+          "known_at": {
+            "type": [
+              "string"
+            ]
+          },
+          "person_id": {
+            "type": [
+              "string"
+            ]
+          },
+          "prior_anonymous_aggregates": {
+            "type": [
+              "string"
+            ]
+          }
+        },
+        "required": [
+          "contact_effective",
+          "external_effective",
+          "id",
+          "internal_effective",
+          "known_at",
+          "person_id",
+          "prior_anonymous_aggregates"
+        ],
+        "additionalProperties": true
+      }
+    }
+  },
+  "required": [
+    "consents",
+    "episodes",
+    "followups",
+    "people",
+    "protocols",
+    "releases",
+    "staff",
+    "visits",
+    "withdrawals"
+  ],
+  "additionalProperties": true,
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "真实世界随访的可比队列与证据使用合成资料格式"
+}

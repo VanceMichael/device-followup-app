@@ -1,0 +1,773 @@
+{
+  "people": [
+    {
+      "id": "P1",
+      "language": "中文",
+      "center": "A",
+      "baseline_level": 1
+    },
+    {
+      "id": "P2",
+      "language": "中文",
+      "center": "A",
+      "baseline_level": 2
+    },
+    {
+      "id": "P3",
+      "language": "英语",
+      "center": "A",
+      "baseline_level": 0
+    },
+    {
+      "id": "P4",
+      "language": "中文",
+      "center": "A",
+      "baseline_level": 1
+    },
+    {
+      "id": "P5",
+      "language": "中文",
+      "center": "A",
+      "baseline_level": 2
+    },
+    {
+      "id": "P6",
+      "language": "英语",
+      "center": "A",
+      "baseline_level": 0
+    },
+    {
+      "id": "P7",
+      "language": "中文",
+      "center": "A",
+      "baseline_level": 1
+    },
+    {
+      "id": "P8",
+      "language": "中文",
+      "center": "A",
+      "baseline_level": 2
+    },
+    {
+      "id": "P9",
+      "language": "英语",
+      "center": "B",
+      "baseline_level": 0
+    },
+    {
+      "id": "P10",
+      "language": "中文",
+      "center": "B",
+      "baseline_level": 1
+    },
+    {
+      "id": "P11",
+      "language": "中文",
+      "center": "B",
+      "baseline_level": 2
+    },
+    {
+      "id": "P12",
+      "language": "英语",
+      "center": "B",
+      "baseline_level": 0
+    },
+    {
+      "id": "P13",
+      "language": "中文",
+      "center": "B",
+      "baseline_level": 1
+    },
+    {
+      "id": "P14",
+      "language": "中文",
+      "center": "B",
+      "baseline_level": 2
+    },
+    {
+      "id": "P15",
+      "language": "英语",
+      "center": "B",
+      "baseline_level": 0
+    },
+    {
+      "id": "P16",
+      "language": "中文",
+      "center": "B",
+      "baseline_level": 1
+    }
+  ],
+  "episodes": [
+    {
+      "id": "E1",
+      "person_id": "P1",
+      "began": "2026-09-02",
+      "mode": "电话",
+      "reason": "个人选择",
+      "baseline_level": 1,
+      "center": "A"
+    },
+    {
+      "id": "E2",
+      "person_id": "P2",
+      "began": "2026-09-03",
+      "mode": "线上",
+      "reason": "个人选择",
+      "baseline_level": 2,
+      "center": "A"
+    },
+    {
+      "id": "E3",
+      "person_id": "P3",
+      "began": "2026-09-04",
+      "mode": "电话",
+      "reason": "中心分配",
+      "baseline_level": 0,
+      "center": "A"
+    },
+    {
+      "id": "E4",
+      "person_id": "P4",
+      "began": "2026-09-05",
+      "mode": "线上",
+      "reason": "个人选择",
+      "baseline_level": 1,
+      "center": "A"
+    },
+    {
+      "id": "E5",
+      "person_id": "P5",
+      "began": "2026-09-06",
+      "mode": "电话",
+      "reason": "个人选择",
+      "baseline_level": 2,
+      "center": "A"
+    },
+    {
+      "id": "E6",
+      "person_id": "P6",
+      "began": "2026-09-07",
+      "mode": "线上",
+      "reason": "中心分配",
+      "baseline_level": 0,
+      "center": "A"
+    },
+    {
+      "id": "E7",
+      "person_id": "P7",
+      "began": "2026-09-08",
+      "mode": "电话",
+      "reason": "个人选择",
+      "baseline_level": 1,
+      "center": "A"
+    },
+    {
+      "id": "E8",
+      "person_id": "P8",
+      "began": "2026-09-09",
+      "mode": "线上",
+      "reason": "个人选择",
+      "baseline_level": 2,
+      "center": "A"
+    },
+    {
+      "id": "E9",
+      "person_id": "P9",
+      "began": "2026-09-10",
+      "mode": "电话",
+      "reason": "中心分配",
+      "baseline_level": 0,
+      "center": "B"
+    },
+    {
+      "id": "E10",
+      "person_id": "P10",
+      "began": "2026-09-11",
+      "mode": "线上",
+      "reason": "个人选择",
+      "baseline_level": 1,
+      "center": "B"
+    },
+    {
+      "id": "E11",
+      "person_id": "P11",
+      "began": "2026-09-12",
+      "mode": "电话",
+      "reason": "个人选择",
+      "baseline_level": 2,
+      "center": "B"
+    },
+    {
+      "id": "E12",
+      "person_id": "P12",
+      "began": "2026-09-13",
+      "mode": "线上",
+      "reason": "中心分配",
+      "baseline_level": 0,
+      "center": "B"
+    },
+    {
+      "id": "E13",
+      "person_id": "P13",
+      "began": "2026-09-14",
+      "mode": "电话",
+      "reason": "个人选择",
+      "baseline_level": 1,
+      "center": "B"
+    },
+    {
+      "id": "E14",
+      "person_id": "P14",
+      "began": "2026-09-15",
+      "mode": "线上",
+      "reason": "个人选择",
+      "baseline_level": 2,
+      "center": "B"
+    },
+    {
+      "id": "E15",
+      "person_id": "P15",
+      "began": "2026-09-01",
+      "mode": "电话",
+      "reason": "中心分配",
+      "baseline_level": 0,
+      "center": "B"
+    },
+    {
+      "id": "E16",
+      "person_id": "P16",
+      "began": "2026-09-02",
+      "mode": "线上",
+      "reason": "个人选择",
+      "baseline_level": 1,
+      "center": "B"
+    },
+    {
+      "id": "E17",
+      "person_id": "P1",
+      "began": "2026-09-03",
+      "mode": "电话",
+      "reason": "个人选择",
+      "baseline_level": 2,
+      "center": "B"
+    },
+    {
+      "id": "E18",
+      "person_id": "P2",
+      "began": "2026-09-04",
+      "mode": "线上",
+      "reason": "中心分配",
+      "baseline_level": 0,
+      "center": "B"
+    },
+    {
+      "id": "E19",
+      "person_id": "P3",
+      "began": "2026-09-05",
+      "mode": "电话",
+      "reason": "个人选择",
+      "baseline_level": 1,
+      "center": "B"
+    },
+    {
+      "id": "E20",
+      "person_id": "P4",
+      "began": "2026-09-06",
+      "mode": "线上",
+      "reason": "个人选择",
+      "baseline_level": 2,
+      "center": "B"
+    }
+  ],
+  "visits": [
+    {
+      "id": "V1",
+      "episode_id": "E1",
+      "day": 30,
+      "occurred": "2026-10-20",
+      "received": "2026-10-22",
+      "completed": true,
+      "score": 4
+    },
+    {
+      "id": "V2",
+      "episode_id": "E2",
+      "day": 30,
+      "occurred": "2026-10-20",
+      "received": "2026-10-22",
+      "completed": true,
+      "score": 5
+    },
+    {
+      "id": "V3",
+      "episode_id": "E3",
+      "day": 30,
+      "occurred": "2026-10-20",
+      "received": "2026-10-22",
+      "completed": true,
+      "score": 3
+    },
+    {
+      "id": "V5",
+      "episode_id": "E5",
+      "day": 30,
+      "occurred": "2026-10-20",
+      "received": "2026-10-22",
+      "completed": true,
+      "score": 5
+    },
+    {
+      "id": "V6",
+      "episode_id": "E6",
+      "day": 30,
+      "occurred": "2026-10-20",
+      "received": "2026-10-22",
+      "completed": true,
+      "score": 3
+    },
+    {
+      "id": "V7",
+      "episode_id": "E7",
+      "day": 30,
+      "occurred": "2026-10-20",
+      "received": "2026-10-22",
+      "completed": true,
+      "score": 4
+    },
+    {
+      "id": "V9",
+      "episode_id": "E9",
+      "day": 30,
+      "occurred": "2026-10-20",
+      "received": "2026-10-22",
+      "completed": true,
+      "score": 3
+    },
+    {
+      "id": "V10",
+      "episode_id": "E10",
+      "day": 30,
+      "occurred": "2026-10-20",
+      "received": "2026-10-22",
+      "completed": true,
+      "score": 4
+    },
+    {
+      "id": "V11",
+      "episode_id": "E11",
+      "day": 30,
+      "occurred": "2026-10-20",
+      "received": "2026-10-22",
+      "completed": true,
+      "score": 5
+    },
+    {
+      "id": "V13",
+      "episode_id": "E13",
+      "day": 30,
+      "occurred": "2026-10-20",
+      "received": "2026-10-22",
+      "completed": true,
+      "score": 4
+    },
+    {
+      "id": "V14",
+      "episode_id": "E14",
+      "day": 30,
+      "occurred": "2026-10-20",
+      "received": "2026-10-22",
+      "completed": true,
+      "score": 5
+    },
+    {
+      "id": "V15",
+      "episode_id": "E15",
+      "day": 30,
+      "occurred": "2026-10-20",
+      "received": "2026-10-22",
+      "completed": true,
+      "score": 3
+    },
+    {
+      "id": "V17",
+      "episode_id": "E17",
+      "day": 30,
+      "occurred": "2026-10-20",
+      "received": "2026-10-22",
+      "completed": true,
+      "score": 5
+    },
+    {
+      "id": "V18",
+      "episode_id": "E18",
+      "day": 30,
+      "occurred": "2026-10-20",
+      "received": "2026-10-22",
+      "completed": true,
+      "score": 3
+    },
+    {
+      "id": "V19",
+      "episode_id": "E19",
+      "day": 30,
+      "occurred": "2026-10-20",
+      "received": "2026-10-22",
+      "completed": true,
+      "score": 4
+    }
+  ],
+  "protocols": [
+    {
+      "id": "PR1",
+      "purpose": "随访流程比较",
+      "window_days": [
+        25,
+        40
+      ],
+      "endpoint": "规定窗口内完成复访",
+      "maturity_days": 40,
+      "baseline_fields": [
+        "baseline_level",
+        "center"
+      ],
+      "external_aggregate_min_people": 5
+    }
+  ],
+  "consents": [
+    {
+      "id": "C1",
+      "person_id": "P1",
+      "purposes": [
+        "随访流程比较"
+      ],
+      "fields": [
+        "episode",
+        "visit",
+        "baseline"
+      ],
+      "allow_contact": true,
+      "allow_internal": true,
+      "allow_external_aggregate": true,
+      "from": "2026-09-01",
+      "to": null
+    },
+    {
+      "id": "C2",
+      "person_id": "P2",
+      "purposes": [
+        "随访流程比较"
+      ],
+      "fields": [
+        "episode",
+        "visit",
+        "baseline"
+      ],
+      "allow_contact": true,
+      "allow_internal": true,
+      "allow_external_aggregate": true,
+      "from": "2026-09-01",
+      "to": null
+    },
+    {
+      "id": "C3",
+      "person_id": "P3",
+      "purposes": [
+        "随访流程比较"
+      ],
+      "fields": [
+        "episode",
+        "visit",
+        "baseline"
+      ],
+      "allow_contact": true,
+      "allow_internal": true,
+      "allow_external_aggregate": true,
+      "from": "2026-09-01",
+      "to": null
+    },
+    {
+      "id": "C4",
+      "person_id": "P4",
+      "purposes": [
+        "随访流程比较"
+      ],
+      "fields": [
+        "episode",
+        "visit",
+        "baseline"
+      ],
+      "allow_contact": true,
+      "allow_internal": true,
+      "allow_external_aggregate": true,
+      "from": "2026-09-01",
+      "to": null
+    },
+    {
+      "id": "C5",
+      "person_id": "P5",
+      "purposes": [
+        "随访流程比较"
+      ],
+      "fields": [
+        "episode",
+        "visit",
+        "baseline"
+      ],
+      "allow_contact": true,
+      "allow_internal": true,
+      "allow_external_aggregate": false,
+      "from": "2026-09-01",
+      "to": null
+    },
+    {
+      "id": "C6",
+      "person_id": "P6",
+      "purposes": [
+        "随访流程比较"
+      ],
+      "fields": [
+        "episode",
+        "visit",
+        "baseline"
+      ],
+      "allow_contact": true,
+      "allow_internal": true,
+      "allow_external_aggregate": true,
+      "from": "2026-09-01",
+      "to": null
+    },
+    {
+      "id": "C7",
+      "person_id": "P7",
+      "purposes": [
+        "随访流程比较"
+      ],
+      "fields": [
+        "episode",
+        "visit",
+        "baseline"
+      ],
+      "allow_contact": true,
+      "allow_internal": true,
+      "allow_external_aggregate": true,
+      "from": "2026-09-01",
+      "to": null
+    },
+    {
+      "id": "C8",
+      "person_id": "P8",
+      "purposes": [
+        "随访流程比较"
+      ],
+      "fields": [
+        "episode",
+        "visit",
+        "baseline"
+      ],
+      "allow_contact": true,
+      "allow_internal": true,
+      "allow_external_aggregate": true,
+      "from": "2026-09-01",
+      "to": null
+    },
+    {
+      "id": "C9",
+      "person_id": "P9",
+      "purposes": [
+        "随访流程比较"
+      ],
+      "fields": [
+        "episode",
+        "visit",
+        "baseline"
+      ],
+      "allow_contact": true,
+      "allow_internal": true,
+      "allow_external_aggregate": true,
+      "from": "2026-09-01",
+      "to": null
+    },
+    {
+      "id": "C10",
+      "person_id": "P10",
+      "purposes": [
+        "随访流程比较"
+      ],
+      "fields": [
+        "episode",
+        "visit",
+        "baseline"
+      ],
+      "allow_contact": true,
+      "allow_internal": true,
+      "allow_external_aggregate": false,
+      "from": "2026-09-01",
+      "to": null
+    },
+    {
+      "id": "C11",
+      "person_id": "P11",
+      "purposes": [
+        "随访流程比较"
+      ],
+      "fields": [
+        "episode",
+        "visit",
+        "baseline"
+      ],
+      "allow_contact": true,
+      "allow_internal": true,
+      "allow_external_aggregate": true,
+      "from": "2026-09-01",
+      "to": null
+    },
+    {
+      "id": "C12",
+      "person_id": "P12",
+      "purposes": [
+        "随访流程比较"
+      ],
+      "fields": [
+        "episode",
+        "visit",
+        "baseline"
+      ],
+      "allow_contact": true,
+      "allow_internal": true,
+      "allow_external_aggregate": true,
+      "from": "2026-09-01",
+      "to": null
+    },
+    {
+      "id": "C13",
+      "person_id": "P13",
+      "purposes": [
+        "随访流程比较"
+      ],
+      "fields": [
+        "episode",
+        "visit",
+        "baseline"
+      ],
+      "allow_contact": true,
+      "allow_internal": true,
+      "allow_external_aggregate": true,
+      "from": "2026-09-01",
+      "to": null
+    },
+    {
+      "id": "C14",
+      "person_id": "P14",
+      "purposes": [
+        "随访流程比较"
+      ],
+      "fields": [
+        "episode",
+        "visit",
+        "baseline"
+      ],
+      "allow_contact": true,
+      "allow_internal": true,
+      "allow_external_aggregate": true,
+      "from": "2026-09-01",
+      "to": null
+    },
+    {
+      "id": "C15",
+      "person_id": "P15",
+      "purposes": [
+        "随访流程比较"
+      ],
+      "fields": [
+        "episode",
+        "visit",
+        "baseline"
+      ],
+      "allow_contact": true,
+      "allow_internal": true,
+      "allow_external_aggregate": false,
+      "from": "2026-09-01",
+      "to": null
+    },
+    {
+      "id": "C16",
+      "person_id": "P16",
+      "purposes": [
+        "随访流程比较"
+      ],
+      "fields": [
+        "episode",
+        "visit",
+        "baseline"
+      ],
+      "allow_contact": true,
+      "allow_internal": true,
+      "allow_external_aggregate": true,
+      "from": "2026-09-01",
+      "to": null
+    }
+  ],
+  "withdrawals": [
+    {
+      "id": "W1",
+      "person_id": "P4",
+      "known_at": "2026-10-25",
+      "contact_effective": "2026-10-25",
+      "internal_effective": "2026-10-25",
+      "external_effective": "2026-10-25",
+      "prior_anonymous_aggregates": "允许保留"
+    }
+  ],
+  "staff": [
+    {
+      "id": "S1",
+      "languages": [
+        "中文"
+      ],
+      "centers": [
+        "A",
+        "B"
+      ],
+      "date": "2026-10-26",
+      "max_contacts": 5
+    },
+    {
+      "id": "S2",
+      "languages": [
+        "英语"
+      ],
+      "centers": [
+        "B"
+      ],
+      "date": "2026-10-26",
+      "max_contacts": 3
+    }
+  ],
+  "followups": [
+    {
+      "id": "F1",
+      "person_id": "P4",
+      "episode_id": "E4",
+      "staff_id": "S1",
+      "date": "2026-10-26",
+      "status": "已安排"
+    }
+  ],
+  "releases": [
+    {
+      "id": "R1",
+      "protocol_id": "PR1",
+      "cutoff": "2026-10-24",
+      "scope": "匿名总体复访",
+      "status": "已送出",
+      "known_person_ids": [
+        "P1",
+        "P2",
+        "P3",
+        "P4",
+        "P6",
+        "P7"
+      ]
+    }
+  ]
+}
